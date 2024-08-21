@@ -1,0 +1,1633 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url("SankofaDisplay-Regular.ttf");
+}
+
+body p{
+    font-family: myfirstFont;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+}
+body{
+    background-color:white ;
+    margin: 0 auto;
+    padding: 0.5em 0.5em 0.5em;
+    font-family: Open Sans;
+    overflow-x: hidden;
+
+}
+header{
+    width: 100%;
+    height: 4rem;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: end;
+    margin: 0 auto;
+    border-bottom: 1px solid #00000040;
+}
+header div{
+    float: right;
+}
+.headerimg1{
+    width: 1rem!important;
+
+}
+.headerimg2{
+    width: 1rem!important;
+    height: auto!important;
+
+}
+/* responsive */
+.headerspan1{
+    width: 10%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    text-align: left;
+
+}
+/* responsive */
+.headerspan2{
+    width: 10%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: auto;
+    text-align: left;
+
+}
+
+nav{
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+}
+.navdiv1{
+    float: left;
+    width: 20%;
+    display: flex;
+    height: auto;
+    gap: 1%;
+}
+.navdiv1 div{
+    display: flex;
+    width: 100%;
+    height: auto;
+}
+.navdiv1 div img{
+    display: flex;
+    width: 30%;
+    height: auto;
+
+}
+/*responsive*/
+.navdiv1  div span{
+    display:flex;
+    align-items: center;
+    width: auto;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 34px;
+    font-weight: 700;
+    line-height: 51px;
+    text-align: left;
+    color: #004866;
+
+}
+
+.navdiv2{
+    display: flex;
+    width: 80%;
+}
+.navdiv2 ul{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+    height: auto;
+    gap: 2rem;
+    opacity: 0px;
+
+}
+ul li{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+}
+
+/*responsive*/
+ul li a{
+    text-decoration: none;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.51px;
+    text-align: left;
+    color: #004866;
+}
+
+/*responsive*/
+
+ul li button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6rem;
+    height: 2rem;
+    background: #00B6FF;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: 0;
+    text-transform: uppercase;
+}
+
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 6rem;
+
+}
+#maindiv1{
+    width: 100%;
+    height: auto;
+    display: flex;
+    overflow: hidden !important;
+    z-index: 100 !important;
+
+}
+#maindiv1 article{
+    display: flex;
+    z-index: 10;
+    opacity: 1;
+    justify-content:center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    gap: 1rem;
+    margin-left: 5%;
+    margin-top: 10%;
+    margin-bottom: 10%;
+}
+/*responsive*/
+
+#maindiv1 article h2{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 46px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #004866;
+
+}
+/*responsive*/
+
+#maindiv1 article p{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+
+}
+#maindiv1 article div{
+    margin: 0;
+    padding: 0 1rem;
+    display: flex;
+    width: 90%;
+    height: 100%;
+    padding: 3%;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    border-radius: 1rem;
+    opacity: 1px;
+    z-index: 10;
+}
+/*responsive*/
+
+#maindiv1 article div span{
+    display: flex;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    align-items: center;
+    color:#004866;
+}
+#maindiv1 article div img{
+    display: flex;
+    width:2rem;
+    height: auto;
+    justify-content: center;
+    align-items: center;
+}
+/*responsive*/
+
+#maindiv1 article div button{
+    justify-content: center;
+    align-items: center;
+    width: 20%;
+    height: 3rem;
+    background: #00B6FF;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: 0;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-left: auto;
+}
+
+#maindiv2{
+    display: flex;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    gap:2rem;
+    z-index: 20;
+    opacity: 1;
+    flex-direction: row;
+
+}
+#maindiv2 article{
+    display: flex;
+    width: auto !important;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+
+}
+#maindiv2 article img{
+    display: flex;
+    margin: 0 auto;
+    width: auto;
+    height: 4rem;
+
+}
+/*responsive*/
+#maindiv2 article h2{
+    margin: 0;
+    width: 100%;
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: center;
+    color: #004866;
+}
+#maindiv2 article p{
+    margin: 0;
+    width: auto;
+    height: auto;
+    font-family: Open Sans;
+    font-size: auto;
+    font-weight: 400;
+    line-height: auto;
+    text-align: center;
+    color: #222A41;
+
+}
+#maindiv3{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20rem;
+}
+#maindiv3 .divleft{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: auto;
+    margin-right: auto;
+}
+#maindiv3 .divleft article{
+    display: flex;
+    opacity: 1;
+    justify-content:center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    margin-left: auto;
+}
+/*responsive*/
+#maindiv3 .divleft article h2{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #004866;
+
+}
+/*responsive*/
+
+#maindiv3 .divleft article p{
+    width: 100%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+
+}
+/*responsive*/
+
+#maindiv3 .divleft article button{
+    width: 10rem;
+    height: 3rem;
+    background: #00B6FF;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: 0;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-right: auto;
+
+}
+.div1{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+
+}
+.div1 .divleftdiv1{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: #F3F7F8;
+    border-radius: 1rem;
+    z-index: 1;
+}
+.div1 .divleftdiv2{
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 8%;
+    left: 10%;
+    gap: 0px;
+    opacity: 0px;
+    background: #D8D8D8;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.divleft .divleftdiv3{
+    display: flex;
+    margin: 0;
+    width: 25%;
+    height: 25%;
+    color: #00B6FF;
+    position: absolute;
+    z-index: 1.5;
+    top: 65%;
+    left: 40%;
+    justify-content: end;
+}
+
+#maindiv3 .divright{
+    display: flex;
+    flex-direction: row;
+    width: 80%;
+    height: 100%;
+    margin-left: auto;
+}
+#maindiv3 .divright article{
+    display: flex;
+    opacity: 1;
+    justify-content:center;
+    flex-direction: column;
+    width: 50%;
+    height: auto;
+    gap: 0rem;
+    margin-right: auto;
+
+}
+/*responsive*/
+#maindiv3 .divright article h2{
+    width: 100%;
+    height: auto;
+    margin: 0;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: left;
+    color: #004866;
+}
+#maindiv3 .divright article p{
+    width: 100%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+
+}
+/*responsive*/
+
+#maindiv3 .divright article button{
+    width: 10rem;
+    height: 3rem;
+    background: #00B6FF;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: 0;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-right: auto;
+
+}
+#div2{
+    position: absolute;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    margin-left: 45%;
+}
+#div2 .divrightdiv1{
+    display: flex;
+    position: absolute;
+    width: 30%;
+    height: 30%;
+    background: #F3F7F8;
+    border-radius: 1rem;
+    z-index: 1;
+}
+#div2 .divrightdiv2{
+    display: flex;
+    position: absolute;
+    width: 50%;
+    height: 70%;
+    top: 8%;
+    left: 10%;
+    background: #D8D8D8;
+    border-radius: 1rem;
+    z-index: 2;
+}
+.divright #div2 .divrightdiv3{
+    width: 25%;
+    height: 25%;
+    display: flex;
+    position: absolute;
+    z-index: 1.5;
+    top: 65%;
+    left: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+#maindiv4{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2rem;
+}
+/*reponsive*/
+#maindiv4 h1{
+    text-align: center;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: #004866;
+}
+
+/* responsive */
+#maindiv4 p{
+    width: 60%;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #222A41;
+    text-align: center;
+
+}
+.maindiv4div1{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.maindiv4div1 .maindiv4left{
+    width: 50%;
+    height: 30rem;
+    background: #D8D8D8;
+    z-index: 10;
+    border-radius: 1rem;
+
+}
+.maindiv4div1 article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    height: auto;
+    background: #F3F7F8;
+    border-top-right-radius: 1rem;
+    border-bottom-right-radius: 1rem;
+}
+/* responsive */
+.maindiv4div1 article h2{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #004866;
+
+}
+/* responsive */
+.maindiv4div1 article h3{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+
+}
+/* responsive */
+.maindiv4div1 article p{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 400;
+line-height: 27px;
+text-align: left;
+color: #222A41;
+
+}
+
+
+.maindiv4div2{
+    width: 90%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.maindiv4div2 .maindiv4left{
+    width: 50%;
+    height: 30rem;
+    background: #D8D8D8;
+    z-index: 10;
+    border-radius: 1rem;
+
+}
+.maindiv4div2 article{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    text-align: left;
+    width: 50%;
+    height: auto;
+    background: #F3F7F8;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+}
+ /* responsive */
+.maindiv4div2 article h2{
+    font-family: Open Sans;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 32px;
+    text-align: left;
+    color: #004866;
+
+}
+ /* responsive */
+.maindiv4div2 article h3{
+    font-family: Open Sans;
+font-size: 18px;
+font-weight: 700;
+line-height: 27px;
+text-align: left;
+color: #222A41;
+
+}
+/* responsive */
+.maindiv4div2 article p{
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: left;
+    color: #222A41;
+
+}
+
+#footerdiv1{
+    width: 100%;
+    height: auto;
+    padding: 10% 0;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    opacity: 1;
+    background: #F3F7F8;
+    box-shadow: 12px 6px 40px 0px #0048661A;
+
+}
+/*responsive*/
+
+#footerdiv1 h2{
+    margin: 0;
+    width: 100%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 56px;
+    text-align: center;
+    color: #004866;
+
+}
+/*responsive*/
+#footerdiv1 p{
+    margin: 0;
+    width: 50%;
+    height: auto;
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 27px;
+    text-align: center;
+    color: #222A41;
+
+}
+#footerdiv1 div{
+    padding: 0 2rem;
+    display: flex;
+    width: 50%;
+    height: 5rem;
+    align-items: center;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.08);
+    background-color: white;
+    border-radius: 0.5rem;
+    opacity: 1;
+    z-index: 10;
+}
+/*responsive*/
+#footerdiv1 div span{
+    display: flex;
+    width: 30%;
+    height: auto;
+
+    font-family: Open Sans;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 28px;
+    text-align: left;
+    align-items: center;
+    color: #0047664c;
+    
+}
+/*responsive*/
+
+#footerdiv1 div button{
+    width: 30%;
+    height: 60%;
+    background: #00B6FF;
+    color: #FFFFFF;
+    border-radius: 0.3em;
+    border: 0;
+    text-transform: uppercase;
+    font-family: Open Sans;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+    text-align: center;
+    margin-left: auto;
+}
+#footerdiv2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    height: auto;
+    padding: 2% 0;
+    border-top: 1px solid #00000040;
+}
+#footerdiv2 .navdiv1 {
+    float: left;
+    width: 20%;
+    height: 3rem;
+}
+#footerdiv2 .navdiv1 div img{
+    width: 100%;
+    height: 100%;
+}
+
+#footerdiv2 .navdiv2{
+    margin-left: auto;
+    width: 60%;
+    height: auto;
+}
+#footerdiv2 .navdiv2 ul{
+    height: auto;
+    gap: 3rem;
+    justify-content: center;
+}
+#footerdiv2 div{
+    width: 30%;
+}
+#footerdiv2 .navdiv3{
+    width: auto;
+    height: auto;
+}
+
+
+
+
+
+@media screen and (max-width:912px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 3rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .headerspan1{
+        width: 10%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: auto;
+        text-align: left;
+    }
+    .headerspan2{
+        width: 10%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 13px;
+        font-weight: 300;
+        line-height: auto;
+        text-align: left;
+    }
+    nav{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 96%;
+        height: auto;
+    }
+    
+    .navdiv1 div span{
+        display:flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        font-family: Open Sans;
+        font-size: 30px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: left;
+        color: #004866;
+    }
+    ul li a{
+        text-decoration: none;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 21.51px;
+        text-align: left;
+        color: #004866;
+    }
+    ul li button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 4rem;
+        height: 1.5rem;
+        background: #00B6FF;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 24px;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+    }
+    #maindiv1 article h2{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: left;
+        color: #004866;
+    }
+    #maindiv1 article p{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    }
+    #maindiv1 article div span{
+        display: flex;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: left;
+        align-items: center;
+        color:#004866;
+    }
+    #maindiv1 article div img{
+        display: flex;
+        width:1.5rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #maindiv1 article div button{
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 2rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 15px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #maindiv2 article h2{
+        margin: 0;
+        width: 100%;
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: #004866;
+    }
+    #maindiv2 article p{
+        font-weight: 300;
+    }
+    #maindiv3 .divleft article h2{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: left;
+        color: #004866;
+
+    }
+    #maindiv3 .divleft article p{
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    #maindiv3 .divleft article button{
+        width: 8rem;
+        height: 3rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        margin-right: auto;
+    
+    }
+    #maindiv3 .divright article h2{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: left;
+        color: #004866;
+    }
+    #maindiv3 .divright article p{
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    #maindiv3 .divright article button{
+        width: 8rem;
+        height: 3rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        margin-right: auto;
+    
+    }
+    #maindiv4 h1{
+        text-align: center;
+        font-family: Open Sans;
+        font-size: 44px;
+        font-weight: 700;
+        line-height: 50px;
+        text-align: center;
+        color: #004866;
+    }
+    #maindiv4 p{
+        width: 60%;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        color: #222A41;
+        text-align: center;
+    
+    }
+    .maindiv4div1 article h2{
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        color: #004866;
+    
+    }
+    .maindiv4div1 article h3{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    .maindiv4div1 article p{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+     /* responsive */
+    .maindiv4div2 article h2{
+        font-family: Open Sans;
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 32px;
+        text-align: left;
+        color: #004866;
+
+    }
+    /* responsive */
+    .maindiv4div2 article h3{
+        font-family: Open Sans;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    text-align: left;
+    color: #222A41;
+
+    }
+    /* responsive */
+    .maindiv4div2 article p{
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+
+    }
+
+    #footerdiv1 h2{
+        margin: 0;
+        width: 100%;
+        height:auto;
+        font-family: Open Sans;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+        color: #004866;
+    }
+    #footerdiv1 p{
+        margin: 0;
+        width: 50%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        color: #222A41;
+    }
+    #footerdiv1 div{
+        padding: 0 1.5rem;
+        display: flex;
+        width: 50%;
+        height: 4rem;
+    }    
+    #footerdiv1 div span{
+        display: flex;
+        width: 30%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        align-items: center;
+        color: #0047664c;
+        
+    }
+    #footerdiv1 div button{
+        width: 30%;
+        height: 60%;
+        background: #00B6FF;
+        border: 0;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #footerdiv2 .navdiv1 {
+        float: left;
+        width: 20%;
+        height: 2rem;
+    }
+    #footerdiv2 .navdiv1 div img{
+        width: 100%;
+        height: 100%;
+    }
+    
+    #footerdiv2 .navdiv2{
+        margin-left: auto;
+        width: 50%;
+        height: auto;
+    }
+    #footerdiv2 .navdiv2 ul{
+        height: auto;
+        gap: 2rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerdiv2 div{
+        width: 30%;
+    }
+    
+
+}
+
+
+
+
+
+
+
+
+@media screen and (max-width:677px){
+    body{
+        width: 100%;
+        overflow-x: hidden;
+    }
+    header{
+        width: 100%;
+        height: 2rem;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        justify-content: end;
+    }
+    .headerspan1{
+        width: 10%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: auto;
+        text-align: left;
+    }
+    .headerspan2{
+        width: 10%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 300;
+        line-height: auto;
+        text-align: left;
+    }
+    nav{
+        margin: 0 auto;
+        display: flex;
+        align-items: center;
+        flex-direction: row;
+        width: 96%;
+        height: auto;
+    }
+    .navdiv1 div img{
+        display: flex;
+        width: 40%;
+        height: auto;
+    
+    }
+    
+    .navdiv1 div span{
+        display:flex;
+        width: auto;
+        height: auto;
+        align-items: center;
+        font-family: Open Sans;
+        font-size: 24px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: #004866;
+    }
+    .navdiv2 ul{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        width: 100%;
+        height: auto;
+        gap: 1rem;
+        opacity: 0px;
+    
+    }
+    
+    ul li a{
+        text-decoration: none;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 21.51px;
+        text-align: left;
+        color: #004866;
+    }
+    ul li button{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 3rem;
+        height: 1.5rem;
+        background: #00B6FF;
+        font-family: Open Sans;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: center;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+    }
+    #maindiv1 article h2{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 40px;
+        text-align: left;
+        color: #004866;
+    }
+    #maindiv1 article p{
+        margin: 0;
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 300;
+        line-height: 22px;
+        text-align: left;
+        color: #222A41;
+    }
+    #maindiv1 article div span{
+        display: flex;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 25px;
+        text-align: left;
+        align-items: center;
+        color:#004866;
+    }
+    #maindiv1 article div img{
+        display: flex;
+        width:1rem;
+        height: auto;
+        justify-content: center;
+        align-items: center;
+    }
+    #maindiv1 article div button{
+        justify-content: center;
+        align-items: center;
+        width: 20%;
+        height: 1.5rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 8px;
+        font-weight: 600;
+        line-height: 10px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #maindiv2 article h2{
+        margin: 0;
+        width: 100%;
+        font-family: Open Sans;
+        font-size: 16px;
+        font-weight: 600;
+        line-height: 28px;
+        text-align: center;
+        color: #004866;
+    }
+    #maindiv2 article p{
+        font-weight: 300;
+    }
+    #maindiv3 .divleft article h2{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-family: Open Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: left;
+        color: #004866;
+
+    }
+    #maindiv3 .divleft article p{
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    #maindiv3 .divleft article button{
+        width: 6rem;
+        height: 2rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        margin-right: auto;
+    
+    }
+    #maindiv3 .divright article h2{
+        width: 100%;
+        height: auto;
+        margin: 0;
+        font-family: Open Sans;
+        font-size: 38px;
+        font-weight: 600;
+        line-height: 50px;
+        text-align: left;
+        color: #004866;
+    }
+    #maindiv3 .divright article p{
+        width: 100%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    #maindiv3 .divright article button{
+        width: 6rem;
+        height: 2rem;
+        background: #00B6FF;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        border: 0;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: center;
+        margin-right: auto;
+    
+    }
+    #maindiv4 h1{
+        text-align: center;
+        font-family: Open Sans;
+        font-size:38px;
+        font-weight: 700;
+        line-height: 30px;
+        text-align: center;
+        color: #004866;
+    }
+    #maindiv4 p{
+        width: 60%;
+        font-family: Open Sans;
+        font-size: 15px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        color: #222A41;
+        text-align: center;
+    
+    }
+    .maindiv4div1 .maindiv4left{
+    width: 50%;
+    height: 30rem;
+    background: #D8D8D8;
+    z-index: 10;
+    border-radius: 1rem;
+
+}
+    .maindiv4div1 article{
+        gap: 0rem;
+    }
+
+    .maindiv4div1 article h2{
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left ;
+        color: #004866;
+    
+    }
+    .maindiv4div1 article h3{
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+        text-align: left;
+        color: #222A41;
+    
+    }
+    .maindiv4div1 article p{
+        font-family: Open Sans;
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left !important;
+        color: #222A41;
+    
+    }
+     /* responsive */
+    .maindiv4div2 article h2{
+        font-family: Open Sans;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 20px;
+        text-align: left ;
+        color: #004866;
+
+    }
+    /* responsive */
+    .maindiv4div2 article h3{
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 20px;
+        /* text-align: left; */
+        color: #222A41;
+    }
+    /* responsive */
+    .maindiv4div2 article p{
+        font-family: Open Sans;
+        font-size: 8px;
+        font-weight: 300;
+        line-height: 20px;
+        text-align: left !important;
+        color: #222A41;
+
+    }
+
+    #footerdiv1 h2{
+        margin: 0;
+        width: 100%;
+        height:auto;
+        font-family: Open Sans;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 48px;
+        text-align: center;
+        color: #004866;
+    }
+    #footerdiv1 p{
+        margin: 0;
+        width: 50%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 14px;
+        font-weight: 300;
+        line-height: 24px;
+        text-align: center;
+        color: #222A41;
+    }
+    #footerdiv1 div{
+        padding: 0 1rem;
+        display: flex;
+        width: 50%;
+        height: 3rem;
+    }    
+    #footerdiv1 div span{
+        display: flex;
+        width: 30%;
+        height: auto;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 22px;
+        text-align: left;
+        align-items: center;
+        color: #0047664c;
+        
+    }
+    #footerdiv1 div button{
+        width: 30%;
+        height: 60%;
+        background: #00B6FF;
+        border: 0;
+        color: #FFFFFF;
+        border-radius: 0.3em;
+        text-transform: uppercase;
+        font-family: Open Sans;
+        font-size: 10px;
+        font-weight: 600;
+        line-height: 24px;
+        text-align: center;
+        margin-left: auto;
+    }
+    #footerdiv2 .navdiv1 {
+        float: left;
+        width: 20%;
+        height: 2rem;
+    }
+    #footerdiv2 .navdiv1 div img{
+        width: 100%;
+        height: 100%;
+    }
+    #footerdiv2 .navdiv1 div span{
+        font-size: 15px;
+        font-weight: 700;
+    }
+    #footerdiv2 .navdiv2{
+        margin-left: auto;
+        width: 50%;
+        height: auto;
+    }
+    #footerdiv2 .navdiv2 ul{
+        height: auto;
+        gap: 0.8rem;
+        justify-content: center;
+        align-items: center;
+    }
+    #footerdiv2 div{
+        width: 30%;
+    }
+    
+
+}
